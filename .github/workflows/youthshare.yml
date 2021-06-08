@@ -3,7 +3,7 @@ name: youthshare
 on:
   workflow_dispatch:
   schedule:
-     - cron: '15,55 4,7,10 * * *'
+     - cron: '24 0-14/2 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest    
@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Checkout
         run: |
-          git clone https://github.com/Banme55/SQ1.git ~/SQ1
+          git clone https://github.com/licky009/SQ1.git ~/SQ1
       - name: Use Node.js 14.x
         uses: actions/setup-node@v1
         with:
