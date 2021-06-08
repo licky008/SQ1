@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Checkout
         run: |
-          git clone https://github.com/licky009/SQ1.git ~/SQ1
+          git clone https://github.com/licky008/SQ1.git ~/SQ1
       - name: Use Node.js 14.x
         uses: actions/setup-node@v1
         with:
