@@ -13,8 +13,11 @@ let articles = ["https://focus.youth.cn/article/s?signature=eQVjADm2pM09d8g4XjYv
 "https://focus.youth.cn/article/s?signature=ML5JYgKNrewq9QO4gqb8bPi58ZejheYDGXEayGDn2Z0PAvkopB&uid=55761148&phone_code=463fae4b315406cf1e5e7b10c2207501&scid=38145322&time=1620343434&app_version=2.0.2&sign=014ddfd27ebe6a9b994739f56c7703a7",
 "https://focus.youth.cn/article/s?signature=qbBkjWwN2L3nP684eLN0jnSYQwlRtB0jYE91gRyAEYpXDmeo0O&uid=55761148&phone_code=463fae4b315406cf1e5e7b10c2207501&scid=38152722&time=1620343445&app_version=2.0.2&sign=1b22f3f2509f35172bfa0ad80e51b293",
 "https://focus.youth.cn/article/s?signature=P5zR0VlwdZoWp3N4Kk9gm0fNLP5RIZMDlDB4MQLb6BeXxq2kEr&uid=55850702&phone_code=f9c3b7ea4d292e57f9a1793b6409d37c&scid=38224786&time=1620529499&app_version=2.0.2&sign=32f76d8bb3bb6072607a47582632f589",
-"https://focus.youth.cn/article/s?signature=3nLo8BVlwPd52WM79DolWPhxnELrUmw6Z0o49Ee0q6OyNbJvDX&uid=55850702&phone_code=f9c3b7ea4d292e57f9a1793b6409d37c&scid=38196544&time=1620529711&app_version=2.0.2&sign=84c715caba320453fec0fffac170b5ab",
-"https://focus.youth.cn/article/s?signature=gENjGxJw2L6opAMamv0Kb2fRv0V5IO3W95b1nX3kY58KdmBzRO&uid=55850702&phone_code=f9c3b7ea4d292e57f9a1793b6409d37c&scid=38218126&time=1620529733&app_version=2.0.2&sign=8492150f3067d5455cd8b9b94617ea18"]
+"https://focus.youth.cn/article/s?signature=Vwo03AWDZyGJbgP7N8MzMKcYB20Nuvyxd3R1nMY6dljLxe9Opk&uid=51702963&phone_code=f9c3b7ea4d292e57f9a1793b6409d37c&scid=39108069&time=1623888448&app_version=2.0.2&sign=e4cf57cc0d5f05d3663817559d53dec4",
+"https://focus.youth.cn/article/s?signature=yGdoJZx2eAwpjgl7O8nJjqCN63gztgLkwxma0PMbqvLnr9EKzR&uid=51702963&phone_code=f9c3b7ea4d292e57f9a1793b6409d37c&scid=39114483&time=1623888459&app_version=2.0.2&sign=c423ec03940a93d8d027f95a2a71ab4a",
+"https://focus.youth.cn/article/s?signature=QB5EzPY3exK9wOd7EnwR3rfVAx3WigvVmnVa8oADjvkbgZRGLV&uid=51702963&phone_code=f9c3b7ea4d292e57f9a1793b6409d37c&scid=39100444&time=1623888434&app_version=2.0.2&sign=41c1a9cf94e92434abf5e78f6b132955",
+"https://focus.youth.cn/article/s?signature=gENjGxJw2L6opAMamvW99gSyZ6zxiOxoAQr1nX3kY58KdmBzRO&uid=51702963&phone_code=f9c3b7ea4d292e57f9a1793b6409d37c&scid=39105412&time=1623888420&app_version=2.0.2&sign=c50753a03e9b9b9e191173e38a65de36"]
+
 
 let encodearticles;
 
