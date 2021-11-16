@@ -1,0 +1,29 @@
+name: jctqshareomme
+
+on:
+  workflow_dispatch:
+  schedule:
+     - cron: '13 0-12/3 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest    
+    if: github.event.repository.owner.id == github.event.sender.id
+    steps:
+      - name: Checkout
+        run: |
+          git clone https://github.com/licky008/SQ1.git ~/SQ1
+      - name: Use Node.js 14.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+      - name: npm install
+        run: |
+          cd ~/SQ1
+          npm install
+          npm install cron
+          npm install request
+          npm install md5-node
+      - name: '运行 【jctqshareomme】'
+        run: |
+          cd ~/SQ1   
+          node Task/jctqshareomme.js
