@@ -1,4 +1,4 @@
-const $ = new Env('youthshare');
+const $ = new Env('youthshare004');
 let md5 = require('md5-node');
 let nowTime;
 let wxck;
